@@ -35,7 +35,7 @@ tab_chart = go.Figure(data=[go.Table(
   ),
   cells=dict(
     values=[
-      [ 'Porcentaje	', 'Numero Facturas	'],
+      [ 'Numero Facturas	', 'Porcentaje	'],
       [ sum_facturas_corregidas, str(int((sum_facturas_corregidas/total_facturas)*100))+'%'],
       [ sum_lectura_ok, str(int((sum_lectura_ok/total_facturas)*100))+'%'],
       [ sum_lectura_imposible, str(int((sum_lectura_imposible/total_facturas)*100))+'%'],
